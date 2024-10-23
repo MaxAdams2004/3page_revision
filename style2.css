@@ -8,8 +8,10 @@ img {
 	margin-right:auto;
 }
 
+
 body {
 	background-image: linear-gradient(to right, dimgray, lightblue);
+	margin: 0px;
 }
 
 /*h2 {
@@ -22,21 +24,23 @@ body {
 }*/
 
 ul {
-	font-size:17px;
+	font-size:22px;
 }
 
 .mainContainer {
 	display:flex;
 	flex-flow: column wrap;
-	font-size:20px;
+	font-size:25px;
 	font-family: "Times New Roman", Times, serif;
+	padding: 0px 4em 0px 4em;
+	line-height: 1.75em;
 }
 
 .credit {
 	display:flex;
 	align-items:center;
 	flex-direction: column;
-	font-size:20px;
+	font-size:22px;
 	font-family: "Times New Roman", Times, serif;
 }
 
